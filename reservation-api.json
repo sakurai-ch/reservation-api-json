@@ -6,9 +6,15 @@
       "area_id": 1,
       "genre_id": 1,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/sushi.jpg",
-      "area_name": "東京都",
-      "genre_name": "寿司",
-      "user_favorite": true
+      "user_id": 1,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 1,
+        "genre_name": "寿司"
+      }
     },
     {
       "id": 2,
@@ -16,9 +22,15 @@
       "area_id": 2,
       "genre_id": 2,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/yakiniku.jpg",
-      "area_name": "大阪府",
-      "genre_name": "焼肉",
-      "user_favorite": true
+      "user_id": 1,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 2,
+        "genre_name": "焼肉"
+      }
     },
     {
       "id": 3,
@@ -26,9 +38,15 @@
       "area_id": 3,
       "genre_id": 3,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/izakaya.jpg",
-      "area_name": "福岡県",
-      "genre_name": "居酒屋",
-      "user_favorite": true
+      "user_id": 1,
+      "area": {
+        "id": 3,
+        "area_name": "福岡県"
+      },
+      "genre": {
+        "id": 3,
+        "genre_name": "居酒屋"
+      }
     },
     {
       "id": 4,
@@ -36,9 +54,15 @@
       "area_id": 1,
       "genre_id": 4,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/italian.jpg",
-      "area_name": "東京都",
-      "genre_name": "イタリアン",
-      "user_favorite": true
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 4,
+        "genre_name": "イタリアン"
+      }
     },
     {
       "id": 5,
@@ -46,9 +70,15 @@
       "area_id": 3,
       "genre_id": 5,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/ramen.jpg",
-      "area_name": "福岡県",
-      "genre_name": "ラーメン",
-      "user_favorite": true
+      "user_id": null,
+      "area": {
+        "id": 3,
+        "area_name": "福岡県"
+      },
+      "genre": {
+        "id": 5,
+        "genre_name": "ラーメン"
+      }
     },
     {
       "id": 6,
@@ -56,9 +86,15 @@
       "area_id": 1,
       "genre_id": 2,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/yakiniku.jpg",
-      "area_name": "東京都",
-      "genre_name": "焼肉",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 2,
+        "genre_name": "焼肉"
+      }
     },
     {
       "id": 7,
@@ -66,9 +102,15 @@
       "area_id": 2,
       "genre_id": 4,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/italian.jpg",
-      "area_name": "大阪府",
-      "genre_name": "イタリアン",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 4,
+        "genre_name": "イタリアン"
+      }
     },
     {
       "id": 8,
@@ -76,9 +118,15 @@
       "area_id": 1,
       "genre_id": 5,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/ramen.jpg",
-      "area_name": "東京都",
-      "genre_name": "ラーメン",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 5,
+        "genre_name": "ラーメン"
+      }
     },
     {
       "id": 9,
@@ -86,9 +134,15 @@
       "area_id": 2,
       "genre_id": 3,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/izakaya.jpg",
-      "area_name": "大阪府",
-      "genre_name": "居酒屋",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 3,
+        "genre_name": "居酒屋"
+      }
     },
     {
       "id": 10,
@@ -96,9 +150,15 @@
       "area_id": 1,
       "genre_id": 1,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/sushi.jpg",
-      "area_name": "東京都",
-      "genre_name": "寿司",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 1,
+        "genre_name": "寿司"
+      }
     },
     {
       "id": 11,
@@ -106,9 +166,15 @@
       "area_id": 2,
       "genre_id": 2,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/yakiniku.jpg",
-      "area_name": "大阪府",
-      "genre_name": "焼肉",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 2,
+        "genre_name": "焼肉"
+      }
     },
     {
       "id": 12,
@@ -116,9 +182,15 @@
       "area_id": 3,
       "genre_id": 2,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/yakiniku.jpg",
-      "area_name": "福岡県",
-      "genre_name": "焼肉",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 3,
+        "area_name": "福岡県"
+      },
+      "genre": {
+        "id": 2,
+        "genre_name": "焼肉"
+      }
     },
     {
       "id": 13,
@@ -126,9 +198,15 @@
       "area_id": 1,
       "genre_id": 3,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/izakaya.jpg",
-      "area_name": "東京都",
-      "genre_name": "居酒屋",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 3,
+        "genre_name": "居酒屋"
+      }
     },
     {
       "id": 14,
@@ -136,9 +214,15 @@
       "area_id": 2,
       "genre_id": 1,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/sushi.jpg",
-      "area_name": "大阪府",
-      "genre_name": "寿司",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 1,
+        "genre_name": "寿司"
+      }
     },
     {
       "id": 15,
@@ -146,9 +230,15 @@
       "area_id": 1,
       "genre_id": 5,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/ramen.jpg",
-      "area_name": "東京都",
-      "genre_name": "ラーメン",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 5,
+        "genre_name": "ラーメン"
+      }
     },
     {
       "id": 16,
@@ -156,9 +246,15 @@
       "area_id": 2,
       "genre_id": 3,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/izakaya.jpg",
-      "area_name": "大阪府",
-      "genre_name": "居酒屋",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 3,
+        "genre_name": "居酒屋"
+      }
     },
     {
       "id": 17,
@@ -166,9 +262,15 @@
       "area_id": 1,
       "genre_id": 1,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/sushi.jpg",
-      "area_name": "東京都",
-      "genre_name": "寿司",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 1,
+        "genre_name": "寿司"
+      }
     },
     {
       "id": 18,
@@ -176,9 +278,15 @@
       "area_id": 1,
       "genre_id": 2,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/yakiniku.jpg",
-      "area_name": "東京都",
-      "genre_name": "焼肉",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 1,
+        "area_name": "東京都"
+      },
+      "genre": {
+        "id": 2,
+        "genre_name": "焼肉"
+      }
     },
     {
       "id": 19,
@@ -186,9 +294,15 @@
       "area_id": 3,
       "genre_id": 4,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/italian.jpg",
-      "area_name": "福岡県",
-      "genre_name": "イタリアン",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 3,
+        "area_name": "福岡県"
+      },
+      "genre": {
+        "id": 4,
+        "genre_name": "イタリアン"
+      }
     },
     {
       "id": 20,
@@ -196,9 +310,15 @@
       "area_id": 2,
       "genre_id": 1,
       "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/sushi.jpg",
-      "area_name": "大阪府",
-      "genre_name": "寿司",
-      "user_favorite": false
+      "user_id": null,
+      "area": {
+        "id": 2,
+        "area_name": "大阪府"
+      },
+      "genre": {
+        "id": 1,
+        "genre_name": "寿司"
+      }
     }
   ],
   "store_data_1": {
@@ -210,9 +330,15 @@
     "image_url": "https://coachtech-matter.s3-ap-northeast-1.amazonaws.com/image/sushi.jpg",
     "created_at": null,
     "updated_at": null,
-    "area_name": "東京都",
-    "genre_name": "寿司",
-    "user_favorite": false
+    "user_id": null,
+    "area": {
+      "id": 1,
+      "area_name": "東京都"
+    },
+    "genre": {
+      "id": 1,
+      "genre_name": "寿司"
+    }
   },
   "reservations_data_1": [
     {
@@ -221,7 +347,11 @@
       "store_id": 1,
       "date": "2021-05-01",
       "time": "10:00:00",
-      "num_of_users": 1
+      "num_of_users": 1,
+      "store": {
+        "id": 1,
+        "store_name": "仙人"
+      }
     },
     {
       "id": 2,
@@ -229,9 +359,23 @@
       "store_id": 2,
       "date": "2021-05-02",
       "time": "10:00:00",
-      "num_of_users": 2
+      "num_of_users": 2,
+      "store": {
+        "id": 2,
+        "store_name": "牛助"
+      }
     }
   ],
+  "reservation_post": {
+    "user_id": 1,
+    "store_id": 1,
+    "date": "",
+    "time": "",
+    "num_of_users": ""
+  },
+  "reservation_delete": {
+    "id": 1
+  },
   "user_data_1": {
     "id": 1,
     "user_name": "一郎",
@@ -279,6 +423,13 @@
       "id": 5,
       "genre_name": "ラーメン"
     }
-  ]
-
+  ],
+  "favorite_post": {
+    "user_id": 1,
+    "store_id": 1
+  },
+  "favorite_delete": {
+    "user_id": 1,
+    "store_id": 1
+  }
 }
